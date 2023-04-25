@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.menu_cap.ui.home.HomeFragment"
+        android:label="INICIO"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.menu_cap.ui.gallery.GalleryFragment"
+        android:label="CRONOGRAMA"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.menu_cap.ui.slideshow.SlideshowFragment"
+        android:label="EVENTOS"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/contactanos"
+        android:name="com.example.menu_cap.ui.Contactanos.Contactanos"
+        android:label="CONTACTANOS"
+        tools:layout="@layout/fragment_contactanos" />
+    <fragment
+        android:id="@+id/pqrs"
+        android:name="com.example.menu_cap.ui.pqrs.pqrs"
+        android:label="PQRS"
+        tools:layout="@layout/fragment_pqrs" />
+    <fragment
+        android:id="@+id/privada"
+        android:name="com.example.menu_cap.ui.privada.privada"
+        android:label="PRIVADA"
+        tools:layout="@layout/fragment_privada" />
+    <fragment
+        android:id="@+id/grupal"
+        android:name="com.example.menu_cap.ui.grupal.grupal"
+        android:label="GRUPAL"
+        tools:layout="@layout/fragment_grupal" />
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.menu_cap.ui.login.login"
+        android:label="INICIO DE SESION"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.menu_cap.ui.logout.logout"
+        android:label="CERRAR SESION"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
