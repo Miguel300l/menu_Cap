@@ -1,4 +1,4 @@
-package com.example.menu_cap.ui.Privada
+package com.example.menu_cap.ui.privada
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.Button
 import android.widget.Spinner
+import androidx.fragment.app.FragmentTransaction
 import com.example.menu_cap.R
 
 // TODO: Rename parameter arguments, choose names that match
@@ -91,20 +92,6 @@ class Privada : Fragment() {
                 return view
             }
         }
-
-
-            override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-                val view = inflater.inflate(R.layout.fragment_privada, container, false)
-                val boton = view.findViewById<Button>(R.id.btn_enviar_solicitud)
-                boton.setOnClickListener {
-                    val CharlaEnviada = CharlaEnviada()
-                    val transaction = fragmentManager.beginTransaction()
-                    transaction.replace(R.id.privada, CharlaEnviada())
-                    transaction.addToBackStack(null)
-                    transaction.commit()
-                }
-                return view
-            }
 
 
 

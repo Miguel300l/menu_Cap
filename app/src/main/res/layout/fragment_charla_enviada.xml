@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/azul_oscuro"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".ui.Privada.CharlaEnviada">
+    tools:context=".ui.privada.CharlaEnviada">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

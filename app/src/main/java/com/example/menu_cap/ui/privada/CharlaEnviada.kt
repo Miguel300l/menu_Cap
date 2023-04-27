@@ -1,4 +1,4 @@
-package com.example.menu_cap.ui.Privada
+package com.example.menu_cap.ui.privada
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
