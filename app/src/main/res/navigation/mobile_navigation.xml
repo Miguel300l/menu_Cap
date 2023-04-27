@@ -34,7 +34,7 @@
         tools:layout="@layout/fragment_pqrs" />
     <fragment
         android:id="@+id/privada"
-        android:name="com.example.menu_cap.ui.privada.privada"
+        android:name="com.example.menu_cap.ui.Privada.Privada"
         android:label="PRIVADA"
         tools:layout="@layout/fragment_privada" />
     <fragment
