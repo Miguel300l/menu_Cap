@@ -5,9 +5,17 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.menu_cap.databinding.FragmentSlideshowBinding
+
+
+private var ConstraintLayout.text: String?
+    get() {
+        TODO("Not yet implemented")
+    }
+    set(h) {}
 
 class SlideshowFragment : Fragment() {
 
@@ -28,7 +36,7 @@ class SlideshowFragment : Fragment() {
         _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
+        val textView: ConstraintLayout = binding.textSlideshow
         slideshowViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }

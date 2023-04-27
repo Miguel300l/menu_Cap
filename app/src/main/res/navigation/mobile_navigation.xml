@@ -52,4 +52,9 @@
         android:name="com.example.menu_cap.ui.logout.logout"
         android:label="CERRAR SESION"
         tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/configuracion_general"
+        android:name="com.example.menu_cap.ui.configuracion_general.configuracion_general"
+        android:label="fragment_configuracion_general"
+        tools:layout="@layout/fragment_configuracion_general" />
 </navigation>

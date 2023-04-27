@@ -33,7 +33,10 @@
             android:id="@+id/grupal"
             android:icon="@drawable/baseline_groups_2_24"
             android:title="GRUPAL" />
-        
+        <item
+            android:id="@+id/configuracion_general"
+            android:icon="@drawable/ajustes"
+            android:title="CONFIGURACION GENERAL" />
 
     </group>
 </menu>

@@ -46,7 +46,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.privada,
                 R.id.grupal,
                 R.id.login,
-                R.id.logout
+                R.id.logout,
+                R.id.configuracion_general,
+
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

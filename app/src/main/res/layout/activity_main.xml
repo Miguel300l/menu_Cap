@@ -26,6 +26,6 @@
         app:menu="@menu/activity_main_drawer"
         android:background="@color/azul_oscuro"
         app:itemTextColor="@color/white"
-        app:itemIconTint="@color/verde_pagina"
+        app:itemIconTint="@color/verde_claro"
         />
 </androidx.drawerlayout.widget.DrawerLayout>
