@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/cuenta"
+        android:title="USUARIO"
+        android:icon="@drawable/cuenta"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/login_inicio"
+                android:title="Iniciar Sesion"
+                />
+            <item
+                android:id="@+id/login_cerrar"
+                android:title="Cerrar Sseion"
+                />
+
+        </menu>
+    </item>
+
+
+</menu>

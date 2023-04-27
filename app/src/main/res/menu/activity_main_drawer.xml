@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="INICIO"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_calendar_today_24"
+            android:title="CRONOGRAMA" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_event_24"
+            android:title="EVENTOS" />
+        <item
+            android:id="@+id/contactanos"
+            android:icon="@drawable/baseline_perm_contact_calendar_24"
+            android:title="CONTACTANOS" />
+        <item
+            android:id="@+id/pqrs"
+            android:icon="@drawable/baseline_question_mark_24"
+            android:title="PQRS" />
+        <item
+            android:id="@+id/privada"
+            android:icon="@drawable/baseline_group_24"
+            android:title="PRIVADA" />
+        <item
+            android:id="@+id/grupal"
+            android:icon="@drawable/baseline_groups_2_24"
+            android:title="GRUPAL" />
+        
+
+    </group>
+</menu>
