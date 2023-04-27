@@ -2,7 +2,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/azul_oscuro"
     android:layout_width="match_parent"
     tools:context=".ui.privada.Privada"
     android:layout_height="match_parent">
@@ -35,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="80dp"
-            android:background="@color/verde_claro"
+            android:background="@drawable/border"
             android:orientation="vertical"
             android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,6 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:background="@drawable/border"
                 android:text="Por favor llenar los siguientes campos de la forma adecuada para poder procesar tu solicitud"
                 android:textColor="#000000"
                 android:textSize="18dp" />
@@ -62,7 +62,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF"
+                    android:background="@drawable/border"
                     android:hint="Nombre"
                     android:padding="8dp"
                     android:textColor="#000000" />
@@ -73,7 +73,7 @@
                     android:layout_marginStart="4dp"
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF"
+                    android:background="@drawable/border"
                     android:hint="Correo"
                     android:padding="8dp"
                     android:textColor="#000000" />
@@ -84,6 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/border"
                 android:orientation="horizontal">
 
                 <EditText
@@ -92,7 +93,6 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="4dp"
                     android:layout_weight="1"
-                    android:background="#FFFFFF"
                     android:hint="# Ficha"
                     android:padding="8dp"
                     android:textColor="#000000" />
@@ -104,7 +104,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/border"
                 android:orientation="horizontal">
 
                 <Spinner
@@ -122,7 +122,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/border"
                 android:orientation="horizontal">
 
                 <Spinner
@@ -147,7 +147,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="4dp"
-                    android:background="#FFFFFF"
+                    android:background="@drawable/border"
                     android:gravity="start"
                     android:hint="Cuentanos el motivo de tu cita"
                     android:padding="50dp"
@@ -161,6 +161,7 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
+                android:background="@drawable/border"
                 android:text="⬆️ Este campo no es obligatorio ⬆️"
                 android:textColor="@color/black"
                 android:textSize="20dp" />
@@ -171,7 +172,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@color/azul_oscuro"
+                android:backgroundTint="@color/verde_claro"
                 android:text="Enviar solicitud"
                 android:textColor="@android:color/white"
                 android:textSize="16dp"

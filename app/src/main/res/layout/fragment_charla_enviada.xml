@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/azul_oscuro"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.privada.CharlaEnviada">
 
@@ -35,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginTop="80dp"
-            android:background="@color/verde_claro"
+            android:background="@drawable/border"
             android:orientation="vertical"
             android:padding="16dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,6 +45,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:background="@drawable/border"
                 android:text="Por favor llenar los siguientes campos de la forma adecuada para poder procesar tu solicitud"
                 android:textColor="#000000"
                 android:textSize="18dp" />
@@ -54,7 +54,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="@color/teal_200"
+                android:background="@drawable/border"
                 android:orientation="horizontal">
 
                 <TextView
@@ -72,14 +72,14 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
-                android:background="@color/azul_oscuro"
+                android:backgroundTint="@color/verde_claro"
                 android:text="INICIO" />
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:background="#FFFFFF"
+                android:background="@drawable/border"
                 android:orientation="horizontal">
 
                 <Spinner
@@ -97,6 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/border"
                 android:orientation="vertical">
 
                 <EditText
@@ -104,7 +105,6 @@
                     android:layout_height="match_parent"
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="4dp"
-                    android:background="#FFFFFF"
                     android:gravity="start"
                     android:hint="Cuentanos el motivo de tu cita"
                     android:padding="50dp"
@@ -118,6 +118,7 @@
                 android:layout_gravity="center"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
+                android:background="@drawable/border"
                 android:text="⬆️ Este campo no es obligatorio ⬆️"
                 android:textColor="@color/black"
                 android:textSize="20dp" />
@@ -128,7 +129,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@color/azul_oscuro"
+                android:backgroundTint="@color/verde_claro"
                 android:text="Enviar solicitud"
                 android:textColor="@android:color/white"
                 android:textSize="16dp" />
